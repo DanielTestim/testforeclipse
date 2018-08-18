@@ -18,6 +18,8 @@ public class myClass
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.quit();
+		//Example code
+		
 	}
 
 }
