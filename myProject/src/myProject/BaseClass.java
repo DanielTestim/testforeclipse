@@ -20,7 +20,6 @@ import static org.junit.Assert.fail;
 
 
 public class BaseClass 
-//Base class
 
 {
     public static WebDriver driver;
