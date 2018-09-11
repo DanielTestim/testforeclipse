@@ -37,6 +37,9 @@ public class browserStack {
 
 	    System.out.println(driver.getTitle());
 	    driver.quit();
+	 
+	   
+	    
 
 	  }
 	}

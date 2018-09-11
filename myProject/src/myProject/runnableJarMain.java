@@ -17,6 +17,7 @@ public class runnableJarMain {
 		DesiredCapabilities chromeDC = DesiredCapabilities.chrome();
 		
 	    chromeDC.setPlatform(Platform.VISTA);
+	  
 	    
 	    WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeDC);
 	    
